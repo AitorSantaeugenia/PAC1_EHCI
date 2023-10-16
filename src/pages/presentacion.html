@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAC1 - Eines HTML i CSS I</title>
     <link rel="stylesheet" href="../styles/styles.css" />
-    <script src="./scripts/app.js"></script>
+    <script src="../scripts/app.js"></script>
     <!-- FA FA icons -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -13,7 +13,9 @@
 <body>
     <!-- HEADER -->
     <header class="header">
-        <a href="../index.html" class="logo">CompanyLogo</a>
+        <div id="containerLogo">
+            <a href="../index.html" class="logo"><img src="../assets/images/mindhunter_logo.svg" id="imageLogo" alt="Mindhunter logo" imgtype="2" onmouseover="hoverImage(this, 2);" onmouseout="unhoverImage(this, 2);"/></a>
+        </div>
 
         <nav class="header-right">
             <a href="../index.html">Home</a>
