@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PAC1 - Eines HTML i CSS I</title>
     <link rel="stylesheet" href="./styles/styles.css" />
-    <script src="./scripts/app.js"></script>
+
     <!-- FA FA icons -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     
@@ -19,7 +19,7 @@
        
 
         <nav class="header-right">
-            <a class="active" href="./index.html">Home</a>
+            <a class="active" href="./index.html">Inicio</a>
             <a href="./pages/categoria.html">Características y anécdotas</a>
             <a href="./pages/presentacion.html">Sobre nosotros</a>
             <a href="./pages/enlaces.html">Enlaces</a>
@@ -27,15 +27,43 @@
     </header>
 
     <!-- CONTAINER -->
-    <div id="container">
-        <h1>PORTADA</h1>
-    </div>
+    <main id="container">
+        <h1>INTRODUCCIÓN</h1>
+        <article>
+            <p><strong>Mindhunter</strong> es una serie de televisión que abarca el <strong>suspense y crimen psicológico</strong> creada por <i>Joe Penhall</i>, la cuál debuto en <i>Netflix</i> el 2017. Esta serie está basada en el libro <q><i>Mind hunter: Inside the FBI's Elite Serial Crime Unit</i></q>, por John E. Dougles y Mark Olshaker.</p>
+            <p>Los <strong>productores</strong> de la serie son <strong>Joe Penhall</strong> (escritor en <q><i>King of thieves</i></q> o <q><i>Enduring love</i></q>), <strong>Charlize Theron</strong> (posiblemente una de las mejores actrices del panorama, con películas cómo <q><i>Mad Max: Fury road</i></q>, <q><i>Hancock</i></q>, <q><i>Atomic Blonde</i></q> entre tantas) y <strong>David Fincher</strong> (director de <q><i>El club de la lucha</i></q> o <q><i>Se7en</i></q>), siendo este último el showrunner de la serie dónde también ejerció cómo director en cuatro capítulos de la primera temporada y en los dos últimos capítulos de la última temporada, pero siempre supervisando tanto guión cómo producción.</p>
+            <p>La serie consta de dos temporadas, la primera se pudo visualizar en <i>Netflix</i> en 2017 y la segunda temporada en 2019. Dada a su gran repercusión, <i>Netflix</i> anunció la posibilidad de una tercera temporada en 2020, pero la producción de la serie quedaría suspendida indefinidamente dado que el showrunner de la serie - <strong>David Fincher</strong> - quería continuar con otros proyectos y dar "libertad" a los actores, pudiendo revisitarla en un futuro.<br>
+             Finalmente, en <strong>2023 se confirmo la cancelación oficial de la serie</strong>, la cuál dejó varias tramas sin cerrar de una de las mejores series de suspense, y cierto terror psicológico, del 2017.</p>
+        </article>
+
+        <div class="container">
+            <figure>
+                <div class="containerImage">
+                    <img src="./assets/images/mindhunter_poster.webp" alt="Mindhunter poster" onmouseover="addOverlay(this, event)" onmouseleave="removeOverlay(this)" onclick="changeToVid(this)" class="posterImage" id="imagePoster">
+                    <div class="overlay hidden" id="overlayDiv" onclick="changeToVid(this)"><p class="textOverlay">Ver tráiler</p></div>
+                </div>
+                
+
+                <video class="videoTrailer hidden" id="trailerVideo" controls onloadstart="this.volume=0.2">
+                    <source src="./assets/videos/MHtrailer.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+
+                <figcaption id="imageTrailerFigcaption"> Póster oficial de Mindhunter, temporada 2. | Imagen de <a href="https://www.rottentomatoes.com/tv/mindhunter/s02" target="_blank">Rotten Tomatoes</a></figcaption>
+            </figure>
+
+            <video class="videoTrailer hidden" id="trailerVideo" controls>
+                <source src="./assets/videos/MHtrailer.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
 
     <!-- FOOTER -->
     <footer>
         <div class="footer-content">
             <h3>PAC#1 - Eines HTML i CSS</h3>
-            <p>Pàgina web per el treball...</p>
+            <p>Página web creada por <a href="https://github.com/AitorSantaeugenia" target="_blank" class="noStyle">Aitor J. Santaeugenia Marí</a> para la PAC#1 de la asignatura <em>Eines HTML i CSS</em> para el máster de Desarrollo de aplicaciones y sitios web de la <a href="https://www.uoc.edu/portal/ca/index.html" target="_blank" class="noStyle"><em>Universidad Oberta de Catalunya.</em></a></p>
             <ul class="socials">
                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fa fa-youtube"></i></a></li>
@@ -49,6 +77,9 @@
     </footer>
 
     <include src="src/components/movie.html"></include>
-    <include src="src/components/movieDetail.html"></include>   
+    <include src="src/components/movieDetail.html"></include>
+
+    <script src="./scripts/app.js"></script>
 </body>
 </html>
+
