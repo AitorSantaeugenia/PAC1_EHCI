@@ -53,23 +53,6 @@ body {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
-  .header{
-    flex-direction: column;
-  }
-  
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .header-right {
-    float: none;
-    min-width: 100%;
-  }
-}
-
 /* MAIN */
 #container{
   min-width: 65%;
@@ -78,9 +61,10 @@ body {
   flex-direction: column;
   margin:0 auto;
   align-items: center;  
+  border: 1px solid red;
 }
 
-.container{
+.container-figure{
   min-width: 65%;
   max-width: 65%;
   display:flex;
@@ -227,4 +211,49 @@ footer{
 .noStyle{
   text-decoration:none;
   color:white;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 500px) {
+  .header{
+    flex-direction: column;
+  }
+  
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .header{
+    flex-direction: column;
+  }
+  
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+    min-width: 100%;
+  }
+
+  .container-figure{
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  #container{
+    min-width: 100%;
+    max-width: 100%;
+  }
 }
