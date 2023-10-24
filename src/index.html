@@ -39,8 +39,8 @@
         <div class="container-figure">
             <figure>
                 <div class="containerImage">
-                    <img src="./assets/images/mindhunter_poster.webp" alt="Mindhunter poster" onmouseover={addOverlay(this)} onmouseleave={removeOverlay(this)} onclick={changeToVid(this)} class="posterImage" id="imagePoster">
-                    <div class="overlay hidden" id="overlayDiv" onclick={changeToVid(this)}><p class="textOverlay">Ver teaser</p></div>
+                    <img src="./assets/images/mindhunter_poster.webp" alt="Mindhunter poster" onmouseover="addOverlay(this, event)" onmouseleave="removeOverlay(this)" onclick="changeToVid(this)" class="posterImage" id="imagePoster">
+                    <div class="overlay hidden" id="overlayDiv" onclick="changeToVid(this)"><p class="textOverlay">Ver teaser</p></div>
                 </div>
                 
 
@@ -76,7 +76,6 @@
         </div>
     </footer>
 
-    <script src="../dist/index.ec932862.js"></script>
     <script src="./scripts/app.js"></script>
 </body>
 </html>
