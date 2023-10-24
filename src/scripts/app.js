@@ -39,8 +39,8 @@ trailerVideo.addEventListener('ended', function() {
 }, false);
 
 //FUNCTION TO ADD AN OVERLAY WHEN HOVERING THE IMAGE
-function addOverlay(element, e){
-    e.preventDefault();
+function addOverlay(element){
+    this.e.preventDefault();
     overlayDiv.classList.remove("hidden");
 }
 
