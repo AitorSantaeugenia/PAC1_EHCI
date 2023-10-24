@@ -1,4 +1,4 @@
-//DOM ELEMENTS TO INTERACT
+//DOM ELEMENTS TO INTERACT - test
 const trailerVideo = document.getElementById("trailerVideo");
 const figCaption = document.getElementById("imageTrailerFigcaption");
 const overlayDiv = document.getElementById("overlayDiv");
@@ -39,8 +39,8 @@ trailerVideo.addEventListener('ended', function() {
 }, false);
 
 //FUNCTION TO ADD AN OVERLAY WHEN HOVERING THE IMAGE
-function addOverlay(element){
-    this.e.preventDefault();
+function addOverlay(element, e){
+    e.preventDefault();
     overlayDiv.classList.remove("hidden");
 }
 
