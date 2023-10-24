@@ -36,3 +36,13 @@ ul.breadcrumb li a:hover {
   flex-direction: row;
   width: 100%;
 }
+
+.containerDetail{
+  min-width: 100%;
+  max-width: 100%;
+  padding: 0 20px 0 20px;
+}
+
+.containerDetail h2{
+  background: aliceblue;
+}

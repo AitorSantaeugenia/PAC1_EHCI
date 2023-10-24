@@ -61,7 +61,6 @@ body {
   flex-direction: column;
   margin:0 auto;
   align-items: center;  
-  border: 1px solid red;
 }
 
 .container-figure{
@@ -128,7 +127,6 @@ footer{
   margin-top:10px;
   background: #111;
   height: auto;
-  width: 100vw;
   padding-top: 40px;
   color: #fff;
 }
@@ -185,7 +183,6 @@ footer{
 
 .footer-bottom{
   background: #373737;
-  width: 100vw;
   padding: 20px;
   text-align: center;
 }
@@ -256,4 +253,19 @@ footer{
     min-width: 100%;
     max-width: 100%;
   }
+}
+
+
+.noDeco{
+  text-decoration: none;
+  color:blue;
+}
+
+.articlePadding{
+  padding: 0px 20px 0px 20px;
+}
+
+.greyColor{
+  color:rgb(109, 107, 107);
+  font-size:16px;
 }

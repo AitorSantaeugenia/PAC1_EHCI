@@ -36,3 +36,76 @@ ul.breadcrumb li a:hover {
   flex-direction: row;
   width: 100%;
 }
+
+#containerCategory{
+  display:flex;
+}
+
+#repartoMindhunter h1{
+  background: aliceblue;
+}
+
+#repartoMindhunter{
+  padding: 0 20px 0 20px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/* Reparto/Cast DIV */
+.repartoDiv{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.repartoDiv img{
+  width:200px;
+  max-height: 290px;
+  min-height: 290px;
+}
+
+.repartoDiv div{
+  padding:10px;
+}
+
+.repartoDiv p{
+  text-align: center;
+}
+
+.hoverDivDetail:hover{
+  background-color: rgb(49, 48, 48);
+  text-decoration: none;
+}
+
+.hoverDivDetail a:hover{
+  color:white !important;
+}
+
+.hoverDivDetail a{
+  text-decoration: none;
+  color:black;
+}
+
+.greyColor{
+  color:rgb(180, 180, 180);
+  font-size:16px;
+}
+
+.categoriaAnecdotas{
+  padding: 0 20px 0 20px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.categoriaAnecdotas h1{
+  background: aliceblue;
+}
+
+.noDecoBlack{
+  text-decoration: none;
+  color:black;
+}
+
+.noDecoBlack:hover{
+  color:rgba(0, 0, 0, 0.322)
+}

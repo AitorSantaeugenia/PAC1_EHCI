@@ -14,5 +14,8 @@
   "devDependencies": {
     "parcel": "^2.10.0",
     "posthtml-include": "^1.7.4"
+  },
+  "dependencies": {
+    "swiffy-slider": "^1.6.0"
   }
 }
