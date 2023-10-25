@@ -11,6 +11,9 @@
       "publicUrl": "/"
     }
   },
+  "parcelIgnore": [
+    "app.js"
+  ],
   "scripts": {
     "start": "parcel src/index.html",
     "build": "npm-run-all clean parcel:build",
@@ -23,6 +26,7 @@
   "devDependencies": {
     "lodash": "^4.17.21",
     "parcel": "^2.10.0",
+    "parcel-resolver-ignore": "^2.1.5",
     "posthtml-include": "^1.7.4"
   },
   "dependencies": {
