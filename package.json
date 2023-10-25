@@ -4,7 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "web": "index.js",
+  "web": "dist/index.html",
   "targets": {
     "web": {
       "context": "browser",
