@@ -1,4 +1,4 @@
-//DOM ELEMENTS TO INTERACT - test
+//DOM ELEMENTS TO INTERACT
 const trailerVideo = document.getElementById("trailerVideo");
 const figCaption = document.getElementById("imageTrailerFigcaption");
 const overlayDiv = document.getElementById("overlayDiv");
