@@ -1,5 +1,5 @@
 // FUNCION PARA LOS READ MORE READ LESS
-window.changeToVid = function readMorereadLess(paragraph) {
+window.readMorereadLess = function readMorereadLess(paragraph) {
     let dots = document.getElementsByClassName("dots")
     let moreText = document.getElementsByClassName("more")
     let btnText = document.getElementsByClassName("myBtn")
