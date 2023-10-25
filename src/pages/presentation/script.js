@@ -1,5 +1,4 @@
-// FUNCTION TO HOVER AND UNHOVER THE MINDHUNTER LOGO
-export function hoverImage(element, elementType) {
+export const hoverImage = (element, elementType) => {
     if(elementType === 1){
         element.setAttribute('src', './../../src/assets/images/mindhunter_logo_white.png');
     }else if(elementType === 2){
