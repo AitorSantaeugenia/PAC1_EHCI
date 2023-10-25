@@ -246,6 +246,10 @@ footer {
   text-decoration: none;
 }
 
+.noDeco:hover {
+  color: #2a2a42;
+}
+
 .articlePadding {
   padding: 0 20px;
 }

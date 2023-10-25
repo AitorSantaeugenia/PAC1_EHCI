@@ -75,13 +75,10 @@ ul.breadcrumb li a:hover {
 .hoverDivDetail:hover{
   background-color: rgb(49, 48, 48);
   text-decoration: none;
-}
-
-.hoverDivDetail a:hover{
   color:white !important;
 }
 
-.hoverDivDetail a{
+.hoverDivDetail{
   text-decoration: none;
   color:black;
 }
