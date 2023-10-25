@@ -8,7 +8,7 @@
   "targets": {
     "web": {
       "context": "browser",
-      "publicUrl": "./"
+      "publicUrl": "/"
     }
   },
   "scripts": {
