@@ -13,7 +13,7 @@ export function hoverImage(element, elementType){
     }
 }
 
-export function  unhoverImage (element, elementType){
+export function unhoverImage (element, elementType){
     if(elementType === 1){
         element.setAttribute('src', './src/assets/images/mindhunter_logo.svg');
     }else if(elementType === 2){
@@ -41,11 +41,9 @@ export function removeOverlay(element) {
     overlayDiv.classList.add("hidden");
 }
 
-/*
 trailerVideo.addEventListener('ended', function() {
     // show image here
     imagePoster.classList.remove("hidden")
     figCaption.innerHTML = `Póster oficial de Mindhunter, temporada 2. | Imagen de <a href="https://www.rottentomatoes.com/tv/mindhunter/s02" target="_blank">Rotten Tomatoes</a>`
     trailerVideo.classList.add("hidden")
 }, false);
-*/
