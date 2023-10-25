@@ -1,5 +1,5 @@
 // FUNCTION TO HOVER AND UNHOVER THE MINDHUNTER LOGO
-function hoverImage(element, elementType) {
+export function hoverImage(element, elementType) {
     if(elementType === 1){
         element.setAttribute('src', './../../src/assets/images/mindhunter_logo_white.png');
     }else if(elementType === 2){
@@ -7,7 +7,7 @@ function hoverImage(element, elementType) {
     }
 }
 
-function unhoverImage(element, elementType) {
+export function unhoverImage(element, elementType) {
     if(elementType === 1){
         element.setAttribute('src', './../../assets/images/mindhunter_logo_white.png');
     }else if(elementType === 2){
@@ -16,7 +16,7 @@ function unhoverImage(element, elementType) {
 }
 
 // FUNCION PARA LOS READ MORE READ LESS
-function readMorereadLess(paragraph) {
+export function readMorereadLess(paragraph) {
     let dots = document.getElementsByClassName("dots")
     let moreText = document.getElementsByClassName("more")
     let btnText = document.getElementsByClassName("myBtn")
