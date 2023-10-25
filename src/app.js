@@ -4,21 +4,21 @@ const figCaption = document.getElementById("imageTrailerFigcaption");
 const overlayDiv = document.getElementById("overlayDiv");
 const imagePoster = document.getElementById("imagePoster");
 
-window.hoverImage = function hoverImage(element, elementType){
-    if(elementType === 1){
-        element.setAttribute('src', '/assets/images/mindhunter_logo_white.png');
-    }else if(elementType === 2){
-        element.setAttribute('src', '/assets/images/mindhunter_logo_white.png');
-    }
-};
+// window.hoverImage = function hoverImage(element, elementType){
+//     if(elementType === 1){
+//         element.setAttribute('src', '/assets/images/mindhunter_logo_white.png');
+//     }else if(elementType === 2){
+//         element.setAttribute('src', '/assets/images/mindhunter_logo_white.png');
+//     }
+// };
 
-window.unhoverImage = function unhoverImage (element, elementType){
-    if(elementType === 1){
-        element.setAttribute('src', '/assets/images/mindhunter_logo.svg');
-    }else if(elementType === 2){
-        element.setAttribute('src', '/assets/images/mindhunter_logo.svg');
-    }
-};
+// window.unhoverImage = function unhoverImage (element, elementType){
+//     if(elementType === 1){
+//         element.setAttribute('src', '/assets/images/mindhunter_logo.svg');
+//     }else if(elementType === 2){
+//         element.setAttribute('src', '/assets/images/mindhunter_logo.svg');
+//     }
+// };
 
 // FUNCTION TO HIDE THE MINDHUNTER POSTER AND SHOW THE TRAILER
 window.changeToVid = function changeToVid(element) {
