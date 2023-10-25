@@ -22,6 +22,10 @@ body {
   max-width: 15rem;
 }
 
+#imageLogo:hover{
+  filter: brightness(0) invert(1);
+}
+
 .header-right a {
   float: left;
   color: white;

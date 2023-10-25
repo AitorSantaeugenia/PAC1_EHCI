@@ -1,7 +1,7 @@
 {
   "name": "pac1",
   "version": "1.0.0",
-  "description": "",
+  "description": "PEC1 Eines HTML i CSS I - Màster Desenvolupament d'aplicacions i llocs web.",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "web": "dist/index.html",
