@@ -1,21 +1,5 @@
-export const hoverImage = (element, elementType) => {
-    if(elementType === 1){
-        element.setAttribute('src', './../../src/assets/images/mindhunter_logo_white.png');
-    }else if(elementType === 2){
-        element.setAttribute('src', './../../assets/images/mindhunter_logo_white.png');
-    }
-}
-
-export function unhoverImage(element, elementType) {
-    if(elementType === 1){
-        element.setAttribute('src', './../../assets/images/mindhunter_logo_white.png');
-    }else if(elementType === 2){
-        element.setAttribute('src', './../../assets/images/mindhunter_logo.svg');
-    }
-}
-
 // FUNCION PARA LOS READ MORE READ LESS
-export function readMorereadLess(paragraph) {
+window.changeToVid = function readMorereadLess(paragraph) {
     let dots = document.getElementsByClassName("dots")
     let moreText = document.getElementsByClassName("more")
     let btnText = document.getElementsByClassName("myBtn")
