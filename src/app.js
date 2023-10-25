@@ -5,7 +5,7 @@ const overlayDiv = document.getElementById("overlayDiv");
 const imagePoster = document.getElementById("imagePoster");
 
 // FUNCTION TO HOVER AND UNHOVER THE MINDHUNTER LOGO
-const hoverImage = (element, elementType) => {
+export function hoverImage(element, elementType){
     if(elementType === 1){
         element.setAttribute('src', '../src/assets/images/mindhunter_logo_white.png');
     }else if(elementType === 2){
@@ -13,7 +13,7 @@ const hoverImage = (element, elementType) => {
     }
 }
 
-const unhoverImage = (element, elementType) => {
+export function  unhoverImage (element, elementType){
     if(elementType === 1){
         element.setAttribute('src', './src/assets/images/mindhunter_logo.svg');
     }else if(elementType === 2){
@@ -22,7 +22,7 @@ const unhoverImage = (element, elementType) => {
 }
 
 // FUNCTION TO HIDE THE MINDHUNTER POSTER AND SHOW THE TRAILER
-const changeToVid = (element) => {
+export function changeToVid(element) {
     element.classList.add("hidden");
     imagePoster.classList.add("hidden");
     trailerVideo.classList.remove("hidden");
@@ -32,12 +32,12 @@ const changeToVid = (element) => {
 }
 
 //FUNCTION TO ADD AN OVERLAY WHEN HOVERING THE IMAGE
-const addOverlay = (element, e) => {
+export function addOverlay(element, e){
     e.preventDefault();
     overlayDiv.classList.remove("hidden");
 }
 
-const removeOverlay = (element) => {
+export function removeOverlay(element) {
     overlayDiv.classList.add("hidden");
 }
 
