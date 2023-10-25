@@ -15,9 +15,9 @@ function hoverImage(element, elementType) {
 
 function unhoverImage(element, elementType) {
     if(elementType === 1){
-        element.setAttribute('src', './../src/assets/images/mindhunter_logo.svg');
+        element.setAttribute('src', './src/assets/images/mindhunter_logo.svg');
     }else if(elementType === 2){
-        element.setAttribute('src', './../assets/images/mindhunter_logo.svg');
+        element.setAttribute('src', './src/assets/images/mindhunter_logo.svg');
     }
 }
 

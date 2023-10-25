@@ -7,14 +7,13 @@
   "web": "dist/index.html",
   "targets": {
     "web": {
-      "context": "browser",
-      "publicUrl": "/"
+      "context": "browser"
     }
   },
   "scripts": {
     "start": "parcel src/index.html",
     "build": "npm-run-all clean parcel:build",
-    "parcel:build": "parcel build src/index.html --target web --no-source-maps --no-cache",
+    "parcel:build": "parcel build src/index.html --public-url ./",
     "clean": "rimraf dist .cache .cache-loader .parcel-cache"
   },
   "keywords": [],
