@@ -4,7 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
-  "web": "dist/app.js",
+  "web": "dist/index.js",
   "targets": {
     "web": {
       "context": "browser",
@@ -14,7 +14,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "npm-run-all clean parcel:build",
-    "parcel:build": "parcel build src/index.html --target web --no-source-maps src/scripts/app.js",
+    "parcel:build": "parcel build src/index.html --target web --no-source-maps",
     "clean": "rimraf dist .cache .cache-loader .parcel-cache"
   },
   "keywords": [],
