@@ -2,6 +2,11 @@
   "name": "pac1",
   "version": "1.0.0",
   "description": "PEC1 Eines HTML i CSS I - Màster Desenvolupament d'aplicacions i llocs web.",
+  "autor": {
+    "name": "Aitor J. Santaeugenia Marí",
+    "email": "aitorsantaeugenia@gmail.com",
+    "url": "https://github.com/AitorSantaeugenia"
+  },
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "web": "dist/index.html",
