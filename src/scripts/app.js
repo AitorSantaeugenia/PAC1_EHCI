@@ -1,5 +1,3 @@
-import _ from "lodash";
-
 //DOM ELEMENTS TO INTERACT
 const trailerVideo = document.getElementById("trailerVideo");
 const figCaption = document.getElementById("imageTrailerFigcaption");
